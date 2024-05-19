@@ -1,0 +1,21 @@
+a = 10
+
+b = 30
+
+def example():
+    global a,b
+    addition = sum([a,b])
+    print(addition)
+
+example()
+
+# Define global variables
+# c = 2
+# d = 10
+
+# def example():
+#     global c, d  # Declare that c and d are global variables
+#     addition = sum([c, d])  # Use the built-in sum function with a list
+#     print(addition)  # Print the result
+
+# example()  # Call the example function
