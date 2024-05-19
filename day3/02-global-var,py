@@ -9,13 +9,8 @@ def example():
 
 example()
 
-# Define global variables
-# c = 2
-# d = 10
-
-# def example():
-#     global c, d  # Declare that c and d are global variables
-#     addition = sum([c, d])  # Use the built-in sum function with a list
-#     print(addition)  # Print the result
-
-# example()  # Call the example function
+# explanation
+# c and d are defined as global variables at the top level, outside of any function.
+# Inside the example function, global c, d is used to indicate that c and d are the global variables defined earlier.
+# The built-in sum function is called with a list containing c and d.
+# # The result is printed.

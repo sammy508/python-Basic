@@ -1,18 +1,6 @@
 name =" sammy"
 print(name)
-
-def sum(x,y):
-        return x+y
-def example():
-    c=2
-    d= 10
-    addititon = sum(c,d)
-    print(addititon)
-
-    
-    example()
-
-
+ # Call the example function
 def example():
     a = 10
     b = 5
@@ -21,19 +9,10 @@ def example():
 
 example()
 
-# or we also can do 
 
 
 
 
 
-# def example():
-#     a = 10
-#     b = 5
-#     result = sum(a, b)
-#     print(result)
 
-# def sum(x, y):
-#     return x + y
 
-# example()
