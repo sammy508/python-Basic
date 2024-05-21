@@ -1,6 +1,6 @@
 import sys
 
-type = "t2.micro"
+type = sys.argv[1]
 
 if type == "t2.micro":
  print("it will inject t2.micro on code")
