@@ -34,5 +34,10 @@ x = 5
 
 ```python
 y = 10
-y += 3  # Equivalent to y = y + 3
+y += 3  #  it is short hand  and Equivalent to y = y + 3
 ```
+### subtraction Assignment
+b= 20 
+ b-=4
+ print(b)
+16

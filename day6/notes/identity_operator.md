@@ -27,4 +27,3 @@ a = "hello"
 b = "world"
 result = a is not b
 # result will be True
-```
