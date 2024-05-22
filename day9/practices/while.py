@@ -12,20 +12,7 @@
 #     number = int(input("enter number: "))
 # print("the sum is: ", sum)    
 
-# def calculate_sum_until_zero():
-#     total = 0
-    
-#     while True:
-#         number = int(input('Enter a number (0 to stop): '))
-#         if number == 0:
-#             break
-#         total += number
-    
-#     print('The sum is', total)
-
-# 
-# calculate_sum_until_zero()
-
+# we can also do this as well
 
 def sasta_calculator():
     sum = 0
