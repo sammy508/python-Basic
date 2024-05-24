@@ -55,3 +55,6 @@ class Person:
 p1 = Person("John", 36)
 
 print(p1)
+
+def __str__(self):: This defines the string representation method (__str__). This method is called when str() or print() is used on an instance of the class.
+return f"{self.name}({self.age})": This returns a formatted string showing the name and age of the instance in the format Name(Age).

@@ -21,8 +21,3 @@ myfamily = {
     },
     
 }
-# make it to new dictionary
-myfamily ={
-    "child1": child1,
-    
-}

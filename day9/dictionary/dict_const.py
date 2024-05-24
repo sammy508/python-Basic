@@ -30,9 +30,4 @@ print(key_val)
 item = thisdict.items()
 print(item)
 
-# to check if item is present in ductionary
-
-if country in thisdict :
-    print("Yes, the country is one of the  keys on dictionary")
-
 

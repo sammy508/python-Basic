@@ -17,6 +17,7 @@ my_tuple = [ 100, 200, 500, 1500.50, 1200.200]
 my_tuple.sort()
 print("after sorting ",my_tuple)
 
+
 my_tuples.append(1200000)
 print("after reverse ",my_tuples)
 
