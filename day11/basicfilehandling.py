@@ -23,29 +23,29 @@
 #             print(f"Error in {folder_path}: {error_message}")
 
 # if __name__ == "__main__":
-#     main()
+# #     main()
 
 
 
 
-# well structured format
-import os
-def file_list(folderpath):
+# # well structured format
+# import os
+# def file_list(folderpath):
 
- try:
-  files = os.listdir(folderpath)
- except PermissionError:
-  print(f"we don't have permission ")
+#  try:
+#   files = os.listdir(folderpath)
+#  except PermissionError:
+#   print(f"we don't have permission ")
 
-def main():
- folderpath = input("enter folder name : ") .split()
- print("Folder paths entered:", folderpath)
+# def main():
+#  folderpath = input("enter folder name : ") .split()
+#  print("Folder paths entered:", folderpath)
 
- for folder in folderpath:
-  files, errormessage = file_list(folderpath)
+#  for folder in folderpath:
+#   files, errormessage = file_list(folderpath)
   
-  if files :
-   file_list(folderpath)
-   for file in files:
-    print(file)
-main()    
+#   if files :
+#    file_list(folderpath)
+#    for file in files:
+#     print(file)
+# main()    
