@@ -1,22 +1,3 @@
-try:
-    path = "D:/pythonfordev/python-for-devops/day12/serverdetail.confi"
-    files = open(path, "r")
-    content = files.read()
-    print("File content:")
-    print(content)
-    files = open(path, "r")
-    files.append(path,"a")
-    files.write("Now the file has more content!")
-    files.close()
-
-#open and read the file after the appending:
-    f = open(path, "r")
-    print(f.read())
-
-except FileNotFoundError:
-    print("not found")    
-
-
 
 
 
