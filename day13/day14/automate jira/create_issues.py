@@ -4,12 +4,12 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://codesammy1000.atlassian.net//rest/api/3/issue"
+# your jira url/ esc2 instance url
+url = "https://code.atlassian.net//rest/api/3/issue"
 
-api_token = "ATATT3xFfGF09stNjwCa16f7KUzHCqApTAq3xKAlou4LyC2I1YwNR89Hb3ruwiHgyuQjbl8r5UAYfEXESQ8y-Hd3S7f5EsB_p10DH5FeVaAaUSZjrstx9I6ZYZpD0JM93HqeQmc2axm7ezzgU2s7FEsFotjBNSShcBJwvSHYPCBS2mruhjBAb5w=C230DA75"
+api_token = " your api token"
 
-
-auth = HTTPBasicAuth("codesammy1000@gmail.com",api_token )
+auth = HTTPBasicAuth("your@1gmail.com",api_token )
 
 headers = {
   "Accept": "application/json",
